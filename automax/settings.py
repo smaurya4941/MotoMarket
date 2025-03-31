@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-^*3@mwn!r1q12x@x%o5#js6o2+f&!+bt1=%15-$)c*(utykugc
 DEBUG =True
 
 
-ALLOWED_HOSTS = ['https://motomarket-24fq.onrender.com','motomarket-24fq.onrender.com']
+ALLOWED_HOSTS = ['https://motomarket-24fq.onrender.com','motomarket-24fq.onrender.com','127.0.0.1:8000','127.0.0.1']
 
 
 # Application definition
