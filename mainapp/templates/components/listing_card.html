@@ -1,34 +1,13 @@
 <div class="card shadow-sm">
-  <img
-    class="bd-placeholder-img card-img-top"
-    width="100%"
-    src="{{listing.image.url}}"
-    role="img"
-    aria-label="Placeholder: Thumbnail"
-    focusable="false"
-  />
+  <img class="bd-placeholder-img card-img-top" width="100%" src="{{listing.image.url}}" role="img"
+  aria-label="Placeholder: Thumbnail" focusable="false">
 
   <div class="card-body">
     <h4 class="card-text">{{listing.model}}</h4>
     <div class="row justify-content-start align-items-center">
       <div class="col-1">
-        {% if listing.seller.photo %}
-        <img
-          src="{{ listing.seller.photo.url }}"
-          class="rounded-circle"
-          height="30"
-          width="30"
-          style="object-fit: cover"
-        />
-        {% else %}
-        <img
-          src=""
-          class="rounded-circle"
-          height="30"
-          width="30"
-          style="object-fit: cover"
-        />
-        {% endif %}
+        <img src="{{listing.seller.photo.url}}" class="rounded-circle" height="30" width="30"
+                    style="object-fit: cover;">
       </div>
       <div class="col-4">
         <p class="card-text">{{listing.seller.user.username}}</p>
